@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fuggles&family=Kaushan+Script&family=Lora&family=Montserrat:wght@500&family=Mulish:wght@200&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins&display=swap');
 
-
-
-a{
-    font-family:'Montserrat', sans-serif;
-    color: #5e068a ;
+.nav-item a:hover{
+    color: #5e068a;
+    font-weight: bold;
 }
+
+.nav-item a{
+    font-family:'Montserrat', sans-serif;
+    color: black;
+
+}
+
 #slider_img1{
     background-image: url('./images/slider\ 1.jpg');
     background-position: center;
@@ -64,6 +69,7 @@ a{
     background-color:  #5e068a;
     text-decoration: none;
     margin-left: 150px;
+    padding: 15px 30px;
      
 }
 .slider_btn a:hover{
@@ -95,6 +101,7 @@ div img{
 }
 .gallery_content{
     /* height: 100vh; */
+
 }
 
 .gallery_content_full{
@@ -108,8 +115,11 @@ div img{
     width: 340px;
     height: 490px;
     background-color: #ffff;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-bottom: 20px;
+}
+.gallery_body:hover{
+box-shadow: 0px 0px 10px black;
 }
 .gallery_body img{
    width: 340px;
@@ -131,6 +141,20 @@ div img{
     font-weight: 600;
     margin-bottom: 20px;
 }
+.view_all a{
+    padding: 20px 30px;
+    background-color: white;
+    color:#5e068a;
+    border: 2px solid #5e068a; 
+
+
+}
+.view_all a:hover{
+    background-color: #5e068a;
+    color: white;
+
+
+}
 
 @media only screen and (max-width: 600px) {
     /* #slider_img1 ,#slider_img2 {
@@ -140,13 +164,14 @@ div img{
     } */
     .carousel h1{
         margin-left: 0;
-        font-weight: 400;
+        font-weight: 600;
+        font-size: 27px;
        
     }
     .carousel p{
         margin-left: 0;
         margin-top: 0px;
-        font-size: smaller; 
+        font-size: 15px; 
         width: 100%;
     }
     .carousel .para{
@@ -162,14 +187,23 @@ div img{
        /* padding: 2px 5px; */
         margin-left: 0;  
         font-size: small; 
-        margin-top: 20px;
+        /* padding: 22px 10px;
+        font-size: 14px; */
+
     }
+    
     .slider_content{
-        margin-top: 90px;
-        padding-left: 10px;
+        margin-top: 60px;
+        padding-left: 20px;
+       
     }
-   
-   
+    .view_all a{
+        padding: 15px 25px;
+        font-size: small;
+        text-align: center;
+    
+    }
+    
   }
   
 

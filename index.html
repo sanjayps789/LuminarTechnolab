@@ -11,6 +11,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -50,13 +54,13 @@
     <div class="carousel-inner">
       <div class="carousel-item active " id="slider_img1">
         <div class="slider_content d-block text-white container">
-          <h1>
+          <h1 id="heading">
             Kerala's No.1 IT Finishing School
             <br>
             100% Placement Assistance
           </h1>
           <br>
-          <p>
+          <p id="paragraph">
             We at LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like BIG DATA,
             Data Science, Machine Learning,PYTHON, Software Testing.
           </p>
@@ -68,11 +72,11 @@
           </div>
         </div>
       </div>
-      
+
       <div class="carousel-item w-100" id="slider_img2">
-        
+
         <div class="slider_content d-block text-white container">
-          <h1>
+          <h1 id="heading">
             Data Science, ML & AI
             <br>
             Big Data - Hadoop & Spark
@@ -80,7 +84,7 @@
             Python Data Science
           </h1>
           <br>
-          <p class="para">
+          <p class="para" id="paragraph">
             We LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like BIG DATA,
             Hadoop, Spark, Data Science, Machine Learning, Deeep Learning and AI.
           </p>
@@ -90,7 +94,7 @@
           </div>
 
         </div>
-    </div>
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -109,18 +113,19 @@
   </button>
   <!-- Modal -->
 
-  <div class="modal  fade w-100 mymodal"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal  fade w-100 mymodal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog ">
       <div class="modal-content">
-        
+
         <div class="modal-body">
-<header class="d-flex container">
+          <header class="d-flex container">
             <h1 class="modal-title fs-4 ms-5" id="exampleModalLabel">Get Training Quote for free</h1>
             <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
-  
-</header>
+
+          </header>
           <div class="form-modal container-xl w-100 px-5 pt-3">
-            <form class="fs-6" action="" >
+            <form class="fs-6" action="">
               <div class="border-bottom mt-3">
                 <input class="border-0 pb-3 w-100 form-control" type="text" placeholder="Name">
               </div>
@@ -136,10 +141,10 @@
                   <option>Data Science-ML-AI-Big Data with Cloud & Tableau </option>
                   <option>Python Django - Angular- Full Stack Web Development Expert</option>
                   <option>Software Testing Specialist</option>
-                  <option >MEARN Stack Web Development Expert - Angular & React</option>
-                  <option >Business Analytics - Power BI & Tableau</option>
+                  <option>MEARN Stack Web Development Expert - Angular & React</option>
+                  <option>Business Analytics - Power BI & Tableau</option>
                   <option>Android Developer Expert Training In Kochi- Flutter</option>
-                  <option >PYTHON -DATA SCIENCE with ML - AI - & TABLEAU</option>
+                  <option>PYTHON -DATA SCIENCE with ML - AI - & TABLEAU</option>
                 </select>
               </div>
               <div class="border-bottom">
@@ -210,89 +215,281 @@
                   DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD & TABLEAU
                 </h3>
               </a>
-                <p></p>
-                <p>
-                  Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.
-                </p>
-                <p>
-                  <strong>
-                    📅 Next Batch : Jan 03<sup>rd</sup>2022 (09:30 am - 11:30 am)
-                  </strong>
-                </p>
-                <p>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day  </p>
-                <p>
-                  <strong> 🧑‍🏫 Course Fees:<a href="" style="color: #5e068a;">VIEW MORE</a></strong></p>
+              <p></p>
+              <p>
+                Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine
+                Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.
+              </p>
+              <p>
+                <strong>
+                  📅 Next Batch : Jan 03<sup>rd</sup>2022 (09:30 am - 11:30 am)
+                </strong>
+              </p>
+              <p>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day </p>
+              <p>
+                <strong> 🧑‍🏫 Course Fees:<a href="" style="color: #5e068a;">VIEW MORE</a></strong>
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </div>
-  </div>
-<!-- gallery -->
-<div class="gallery_content bg-light w-100 pt-5 mt-5">
-  <div class="gallery_content_full w-100 bg-light">
+  <!-- gallery -->
+  <div class="gallery_content bg-light w-100 pt-5 mt-5">
+    <div class="gallery_content_full w-100 bg-light">
       <div class="gallery container w-100">
-          <div class="row">
-              <div class="col-lg-4">
-                  <div class=" gallery_body bg-white container px-3">
-                      <img class="w-100" src="./images/python-1588143191.jpg" alt="">
-                      <div class="content">
-                          <h3 class="pt-3">Python Django - Angular- Full Stack Web Development Expert</h3>
-                          <p></p>
-                          <p class="desc lh-base ">Core Python, Basics of Programming, Unix Commands, Advanced
-                              Python, Django Framework, REST API, Git, Angul...</p>
-                          <p class="button-container">
-                              <a class="px-3 py-2 fw-700 text-decoration-none text-white" href=""
-                                  style="background-color: #5e068a;">VIEW MORE</a>
-                          </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class=" gallery_body bg-white container px-3">
+              <img class="w-100" src="./images/python-1588143191.jpg" alt="">
+              <div class="content">
+                <h3 class="pt-3">Python Django - Angular- Full Stack Web Development Expert</h3>
+                <p></p>
+                <p class="desc lh-base ">Core Python, Basics of Programming, Unix Commands, Advanced
+                  Python, Django Framework, REST API, Git, Angul...</p>
+                <p class="button-container">
+                  <a class="px-3 py-2 fw-700 text-decoration-none text-white" href=""
+                    style="background-color: #5e068a;">VIEW MORE</a>
+                </p>
 
 
-                      </div>
-                  </div>
               </div>
-              <div class="col-lg-4">
-                  <div class="gallery_body container">
-                      <img class="w-100" src="./images/st-1588580359.jpg" alt="">
-                      <div class="content p-3">
-                          <h3 class="">Software Testing Specialist</h3>
-                          <p></p>
-                          <p class="desc lh-base">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web driver, Selenium Advanced Web...</p>
-                          <p class="button-container mt-5">
-                            <a class="px-3 py-2 fw-700 text-decoration-none text-white" href="" style="background-color: #5e068a;">VIEW MORE</a>
-                          </p>
-
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4">
-                  <div class="gallery_body container">
-                      <img class="w-100" src="./images/ms-1623825586.jpg" alt="">
-                      <div class="content p-3">
-                          <h3 class="">MEARN Stack Web Development Expert - Angular & React</h3>
-                          <p></p>
-                          <p class="desc lh-base">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS, Angular, React.js and Node....</p>
-                          <p class="button-container">
-                            <a class="mt-5 px-3 py-2 fw-700 text-decoration-none text-white" href="" style="background-color: #5e068a;">VIEW MORE</a>
-                          </p>
-
-                      </div>
-
-                  </div>
-              </div>
+            </div>
           </div>
+          <div class="col-lg-4">
+            <div class="gallery_body container">
+              <img class="w-100" src="./images/st-1588580359.jpg" alt="">
+              <div class="content p-3">
+                <h3 class="">Software Testing Specialist</h3>
+                <p></p>
+                <p class="desc lh-base">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web
+                  driver, Selenium Advanced Web...</p>
+                <p class="button-container mt-5">
+                  <a class="px-3 py-2 fw-700 text-decoration-none text-white" href=""
+                    style="background-color: #5e068a;">VIEW MORE</a>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="gallery_body container">
+              <img class="w-100" src="./images/ms-1623825586.jpg" alt="">
+              <div class="content p-3">
+                <h3 class="">MEARN Stack Web Development Expert - Angular & React</h3>
+                <p></p>
+                <p class="desc lh-base">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS,
+                  Angular, React.js and Node....</p>
+                <p class="button-container">
+                  <a class="mt-5 px-3 py-2 fw-700 text-decoration-none text-white" href=""
+                    style="background-color: #5e068a;">VIEW MORE</a>
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
+    </div>
   </div>
-</div>
-<!-- gallery end -->
-<div class="view_all container w-100 mt-5 mb-5 text-center ">
- <a class="btn rounded-pill   text-decoration-none text-center" href="" >View all Courses</a> 
-</div>
- 
+  <!-- gallery end -->
 
+  <div class="view_all container w-100 mt-5 mb-5 text-center ">
+    <a class="btn rounded-pill   text-decoration-none text-center" href="">View all Courses</a>
+  </div>
+  <!-- testimonials -->
 
+  <div class="testimonials">
+    <div class="container w-100">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-content text-center">
+            <img src="./images/quotes.png" alt="">
+            <h3 class="pt-3">Testmonials</h3>
 
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="autoplay_carousal">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1700">
+              <div class="carousel-inner">
+                <div class="carousel-item active container">
+                  <div class="auto_para py-5">
+                    <p class="text-dark fw-semibold">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatibus
+                      esse,
+                      eligendi illo voluptates repudiandae molestiae, enim accusamus eaque nulla
+                      repellat, nesciunt omnis fugit dicta reiciendis non. Consequuntur, doloribus
+                      adipisci.
+                    </p>
+                  </div>
+
+                </div>
+                <div class="carousel-item container">
+                  <div class="auto_para py-auto">
+                    <p class="text-dark fw-semibold">Lorem ipsum, dolor sit amet consectetur
+                      adipisicing elit. Ea delectus obcaecati
+                      corrupti dolore culpa ipsa aliquid pariatur cupiditate nihil rerum. Ad
+                      quaerat
+                      repellat, animi assumenda saepe molestias placeat ullam dolor?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cumque
+                      obcaecati
+                      aperiam, necessitatibus reprehenderit nobis, neque facilis aliquam at
+                      assumenda
+                      tempore unde quaerat qui vel, dolore quis maiores rem ad.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item container">
+                  <div class="auto_para py-auto">
+                    <p class="text-dark fw-semibold">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero
+                      a fugiat eligendi ea quisquam vitae maiores laborum? Fuga molestias, dolorum possimus illum a aut
+                      sunt odit eius esse libero.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus adipisci harum consequatur?
+                      Expedita ducimus culpa unde placeat rerum distinctio numquam sapiente odit ad similique. Corrupti
+                      sapiente aliquam velit atque est.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item container">
+                  <div class="auto_para py-auto">
+                    <p class="text-dark fw-semibold">Lorem ipsum, dolor sit amet consectetur
+                      adipisicing elit. Est voluptatum minus
+                      ipsam hic optio repellendus iste soluta maiores et? Molestiae, assumenda
+                      doloribus! Eius veritatis eos repellendus enim itaque, repudiandae minus?
+                      Impedit qui doloremque, repellat, atque maxime vel ab voluptatum accusantium
+                      placeat facilis incidunt nulla, beatae id. Tempore placeat tenetur nemo
+                      veritatis delectus provident voluptas, accusantium itaque iure, accusamus,
+                      aspernatur autem.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container w-100">
+      <div class="row">
+        <div class="col-lg-3">
+
+          <div class="footer_img">
+            <ul>
+              <li>
+                <img src="./images/footer.png" alt="">
+
+              </li>
+              <div class="footer_icon1 py-3 ">
+                <p>
+                  <i class="fa-brands fa-facebook fa-2x"></i>
+                  <i class="fa-solid fa-rss fa-2x ps-3"></i>
+                  <i class="fa-brands fa-google-plus fa-2x ps-3"></i>
+                  <i class="fa-brands fa-twitter fa-2x ps-3"></i>
+                  <i class="fa-brands fa-instagram fa-2x ps-3 "></i>
+
+                </p>
+
+              </div>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-lg-3 ">
+          <div class="footer_head">
+            <h3>TRAINING COURSES</h3>
+          </div>
+          <ul class="footer-list fw-bold">
+            <li><a href="">Data Science Training</a></li>
+            <li><a href="">Python Training</a></li>
+            <li><a href="">MEAN Stack Training</a></li>
+            <li><a href="">Artificial Intelligence Training</a></li>
+            <li><a href="">Software Testing Training</a></li>
+            <li><a href="">Digital Marketing Training</a></li>
+            <li><a href="">Power BI Training</a></li>
+            <li><a href="">Tableau Training</a></li>
+            <li><a href="">Php Training</a></li>
+            <li><a href="">Asp.net Training</a></li>
+          </ul>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_head">
+            <h3>USEFUL LINKS</h3>
+          </div>
+          <ul class="footer-list fw-bold ">
+            <li><a href="">Teachers & Staff</a></li>
+            <li><a href="">Our Courses</a></li>
+            <li><a href="">Courses Categories</a></li>
+            <li><a href="">Certification & Affiliation</a></li>
+            <li><a href="">Refund and Cancellation Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_head">
+            <h3>GET IN TOUCH</h3>
+          </div>
+          <a href="" class="fw-bold "><i class="fa fa-phone me-2 pt-2"></i>
+            +91 8086 651 651</a><br>
+          <a href="" class="fw-bold"><i class="fa fa-phone me-2 pt-3"></i>
+            +91 484 405 8886</a>
+          <br>
+          <span class="fw-bold">
+            <i class="fa fa-envelope ms-1 pt-3"></i>
+            <a href="">contact@luminartechnolab.com</a>
+          </span>
+          <br>
+          <span class="fw-bold">
+            <i class="fa fa-globe ms-1 pt-3"></i>
+            <a href="">www.luminartechnolab.com</a>
+          </span>
+          <br>
+          <span class="fw-bold">
+            <i class="fa fa-map-marker ms-1 pt-3 pe-2"></i>
+            16/3262, First floor
+            <br>
+            <p class="d-block ps-4">
+              Vallamattam Estate Seaport <br> Airport Road,
+              <br>
+              CSEZ P O Kakkanad Ernakulam KL 682037 IN
+            </p>
+          </span>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright ">
+    <div class="container w-100">
+      <div class="row pb-4">
+        <div class="col-lg-6 col-md-7 col-12 text-center ">
+          <span style="font-size: smaller;">Copyright © Luminar Technolab 2020 | Developed by <span
+              style="color: black; font-size: medium; font-weight: 600; font-size: small;">Deepnetsoft</span> </span>
+
+        </div>
+        <div class="col-lg-6 col-md-7 col-12" id="right">
+          <div class="right">
+            <span style="color: black; font-size: smaller; font-weight: 600;">
+              Privacy Policy, Terms & Conditions
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 </body>
 
-</html>
+</htm

@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fuggles&family=Kaushan+Script&family=Lora&family=Montserrat:wght@500&family=Mulish:wght@200&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins&display=swap');
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: #5e068a;
     font-weight: bold;
 }
 
-.nav-item a{
-    font-family:'Montserrat', sans-serif;
+.nav-item a {
+    font-family: 'Montserrat', sans-serif;
     color: black;
 
 }
 
-#slider_img1{
+#slider_img1 {
     background-image: url('./images/slider\ 1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -20,75 +20,92 @@
     min-width: 100%;
 }
 
-#slider_img2{
+#slider_img2 {
     background-image: url('./images/slide2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-   
 
-} 
- .carousel h1{
+
+}
+
+.carousel h1 {
     font-weight: 700;
     text-align: left;
     margin-left: 150px;
     font-size: 4vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-   
+
+
 }
-.carousel p{
+
+.carousel p {
     width: 65%;
     margin-left: 150px;
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
-
-    
 }
-.carousel .para{
+
+.carousel #heading, .carousel #paragraph {
+    animation: anim 2s ease 0.5s 1;
+}
+@keyframes anim {
+    0% {
+        transform: translateY(500px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.carousel .para {
     width: 50%;
     margin-left: 150px;
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
 
-    
 }
 
 
-.slider_content{
+.slider_content {
     position: relative;
     margin-top: 60px;
-   
+
 }
 
-.slider_btn a{
+.slider_btn a {
     /* font-family:'Montserrat', sans-serif; */
-    background-color:  #5e068a;
+    background-color: #5e068a;
     text-decoration: none;
     margin-left: 150px;
     padding: 15px 30px;
-     
+
 }
-.slider_btn a:hover{
+
+.slider_btn a:hover {
     background-color: #9f75b5b9;
     transition: 1s;
 }
-.about-area p{
-   
+
+.about-area p {
+
     line-height: 28px;
     margin-bottom: 12px;
     font-size: 15px;
     max-width: 565px;
 }
-.about-area a{
+
+.about-area a {
     text-decoration: none;
     background-color: #5e068a;
-   
+
 }
-.second-col h3{
+
+.second-col h3 {
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 15px;
@@ -96,37 +113,46 @@
     color: #5e068a;
     margin-top: 20px;
 }
-div img{
+
+div img {
     height: 100%;
 }
-.gallery_content{
+
+.gallery_content {
     /* height: 100vh; */
 
 }
 
-.gallery_content_full{
+.gallery_content_full {
     /* height: 600px; */
 }
-.gallery{
+
+.gallery {
     /* height: 90%; */
 
 }
-.gallery_body{
+
+.gallery_body {
     width: 340px;
     height: 490px;
     background-color: #ffff;
     /* border: 2px solid black; */
     margin-bottom: 20px;
 }
-.gallery_body:hover{
-box-shadow: 0px 0px 10px black;
+
+.gallery_body:hover {
+    box-shadow: 0px 0px 10px rgb(136, 136, 151);
+    transform: scale(1.01);
+
 }
-.gallery_body img{
-   width: 340px;
+
+.gallery_body img {
+    width: 340px;
     height: 190px;
     /* padding: 0px 15px; */
 }
-.content h3{
+
+.content h3 {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 15px;
@@ -135,76 +161,146 @@ box-shadow: 0px 0px 10px black;
     margin-top: 20px;
 
 }
-.content .desc{
+
+.content .desc {
     font-size: 15px;
     color: #414141;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.view_all a{
+
+.view_all a {
     padding: 20px 30px;
     background-color: white;
-    color:#5e068a;
-    border: 2px solid #5e068a; 
+    color: #5e068a;
+    border: 2px solid #5e068a;
 
 
 }
-.view_all a:hover{
+
+.view_all a:hover {
     background-color: #5e068a;
     color: white;
 
 
 }
 
+.auto_para {
+    width: 90%;
+    padding-left: 50px;
+    line-height: 1.6;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.row {
+    /* border: 2px solid ; */
+    background-color: rgba(255, 0, 0, 0);
+    padding: 50px 0 0 0;
+}
+
+.testimonial-content {
+    padding: 40px 0 0px 0;
+    width: 100%;
+    border-right: 1px rgba(177, 171, 171, 0.548) solid;
+}
+
+.testimonial-content h3 {
+    color: #5e068a;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.autoplay_carousal {
+    max-width: 100%;
+
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #1d0429;
+    width: 100%;
+    color: white;
+    padding: 60px 0 65px 0px;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+
+}
+footer h3{
+    padding-bottom: 40px;
+}
+#right {
+    text-align: end;
+}
+
+
 @media only screen and (max-width: 600px) {
+
     /* #slider_img1 ,#slider_img2 {
         
         height: 100%;
        width: 100%;
     } */
-    .carousel h1{
+    .carousel h1 {
         margin-left: 0;
         font-weight: 600;
         font-size: 27px;
-       
+
     }
-    .carousel p{
+
+    .carousel p {
         margin-left: 0;
         margin-top: 0px;
-        font-size: 15px; 
+        font-size: 15px;
         width: 100%;
     }
-    .carousel .para{
+
+    .carousel .para {
         width: 100%;
         margin-top: 0;
         margin-left: 0px;
         font-size: smaller;
-    
-        
+
+
     }
-   
+
     .slider_btn a {
-       /* padding: 2px 5px; */
-        margin-left: 0;  
-        font-size: small; 
+        /* padding: 2px 5px; */
+        margin-left: 0;
+        font-size: small;
         /* padding: 22px 10px;
         font-size: 14px; */
 
     }
-    
-    .slider_content{
+
+    .slider_content {
         margin-top: 60px;
         padding-left: 20px;
-       
+
     }
-    .view_all a{
+
+    .view_all a {
         padding: 15px 25px;
         font-size: small;
         text-align: center;
-    
+
     }
-    
-  }
-  
+    .testimonial-content {
+        border-right:none;
+    }
+    #right {
+        text-align: center;
+       
+    }
 
-
+}
